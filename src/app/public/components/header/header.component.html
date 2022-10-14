@@ -1,0 +1,20 @@
+<p>AGENDA</p>
+
+<ul> <!-- esto es una lista-->
+    <!-- list item -->
+    <!-- nosotros podríamos a un link ponerle un href="" con una dirección para donde ir
+    PEEERO nosotros no queremos hacer eso porque si ponemos un href, cuando clickeemos el link,
+    toda la página se va a cargar nuevamente y nosotros no queremos que la página se cargue entera nuevamente.
+    QUEREMOS QUE SOLO SE ACTUALICE MEDIANTE JAVASCRIPT (TYPESCRIPT) EL CONTENIDO DENTRO DE ESTA PÁGINA.
+    NO CARGAR UNA PÁGINA TODO DE NUEVO (justamente xq es una single page application)
+    entonces lo que vamos a usar (la manera de linkearnos con agular) que es usando routerlink.
+    dentro de routerLink ponemos un array de a donde queremos ir-->
+
+    <li><a [routerLink]="['']">Home</a></li> <!-- estos van a ser links. coo aún no tienen dirección, no tienen funcionalidad de link-->
+    <!-- home nos llevaría a un path vacío-->
+    <li><a [routerLink]="['./contact']">Contact</a></li>
+    <!-- contact nos llevaría a contact
+    y entonces ahora a contact le tenemos que decir a donde ir
+    entonces en app-routing.module.ts tenemos que crear un path contact que nos lleve a contact--->
+
+</ul>

@@ -1,0 +1,16 @@
+ul{
+    background-color: aquamarine;
+}
+
+// ahora quiero crear páginas. cada página va a ser un nuevo módulo (no un componente)
+// va a ser un módulo que puede contener 1 o más componentes.
+// vamos a crear módulos para las distintas páginas: ng generate module public/pages/home --routing 
+//(--rputing porque queremos que tenga su propia ruta/path)
+// EEENTONCES esto crea en public pages/home nuestro módulo y nuestro routing module donde 
+//vamos a poner todo lo que sean las settings del routeo dentro de este módulo.
+//Ahora vamos a crear el componente que tiene que cargar este módulo: ng generate component public/pages/home
+//no solo que se nos va a crear el componente ahí mismo sino que tb se va a registrar en nuestro home module.ts
+//Ahora hacemos lo mismo para Contact : ng g m public/pages/contact --routing
+//y vamos a hacer también el componente: ng g c public/pages/contact
+// Ahora tenemos que ir al router, el principal, app-rpoting.module.ts
+// y decirle qué rutas existen y a dónde me llevan.

@@ -1,0 +1,24 @@
+<!--(es el punto de entrada de nustra aplicacion.
+de acá podemos cargar otros módulos o algunos componentes.
+quiero que haya un componente que siempre esté, por lo tanto
+no voy a hacer un módulo aparte, que se cargue directamente en
+el app.module (en el original) ese va a ser mi header porque
+va a estar siempre cargado)
+para eso vamos a creat un componente que va a sert el header y va
+a estar siempre caragado.
+para eso abrimos la terminal y escribimos: ng generate component public/components/header
+ahí se crean los 4 archivos que necesita el componente (html, css, ts y testing)
+TODOS LOS COMPONENTES TIENEN QUE ESTAR CARGADOS O DECLARADOS EN UN MÓDULO PARA PODER FUNCIONAR
+
+podemos integrar el componente a esta página usando la etiqueta del selector </app-header> -->
+
+<app-header> </app-header>
+
+<!-- A TODO ESTO... en app.component.html tengo el header que cargué antes y luego, en la etiqueta <router-outlet>,
+se va a cargar todo lo que rependa del router.
+o sea que cuando yo me vaya moviendo por el router, el app-header no va a cambiar nunca, sino que 
+va a cambiar lo que pase dentro de router-outlet. -->
+
+<router-outlet></router-outlet>
+
+<!-- entonces vamos a header y vamos a hacer que funcionen nuestros links. (components/header (header.component.html))-->
