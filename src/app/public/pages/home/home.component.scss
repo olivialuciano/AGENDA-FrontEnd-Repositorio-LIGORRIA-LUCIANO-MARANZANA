@@ -59,16 +59,91 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
     font-family: $tipograf-titulo;
 }
 
-#Bingresar{
-    height: 35px;
-    width: 150px;
-    color: $col-lila;
-    font-family: $tipograf-titulo;
-}
+// #Bingresar{
+//     height: 35px;
+//     width: 150px;
+//     color: $col-lila;
+//     font-family: $tipograf-titulo;
+// }
 
-#Bregistrarse{
+// #Bregistrarse{
+//     height: 20px;
+//     width: 300px;
+//     color: $col-lila;
+//     font-family: $tipograf-titulo;
+// }
+
+#Bingresar {
+    position: relative;
+    background-color:$col-violetaoscuro;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    font-family: $tipograf-titulo;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #Bingresar:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #Bingresar:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  #Bregistrarse {
+    position: relative;
+    background-color:$col-violetaoscuro;
+    border: none;
+    font-size: 15px;
+    padding: 20px;
     height: 20px;
     width: 300px;
-    color: $col-lila;
+    color: white;
+    text-align: center;
     font-family: $tipograf-titulo;
-}
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #Bregistrarse:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #Bregistrarse:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }

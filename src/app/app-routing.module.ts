@@ -13,21 +13,21 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     loadChildren: () => import('./public/pages/home/home.module').then(m => m.HomeModule)
   },
 
   //y entonces ahora a contact le tenemos que decir a donde ir
   //entonces en app-routing.module.ts tenemos que crear un path contact que nos lleve a contact
   {
-    path: 'contact',
+    path: 'contact', //si quiero 1 contacto seria contact/:id xejemplo
     loadChildren: () => import('./public/pages/contact/contact.module').then(m => m.ContactModule)
     //                      importá este módulo,                         y después cargalo.
     // esto es lazy loading. Importa las cosas solo cuando le le pide así evitamos saturar nuestra red.
   },
 
   {
-    path: 'registrase',
+    path: 'registrarse',
     loadChildren: () => import('./public/pages/registrarse/registrarse.module').then(m => m.RegistrarseModule)
   },
   // {
