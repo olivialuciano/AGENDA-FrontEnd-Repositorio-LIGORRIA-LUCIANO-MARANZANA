@@ -1,6 +1,51 @@
-ul{
-    background-color: aquamarine;
+
+// C O L O R E S //
+$col-rosa:#E9D5DA;
+$col-lila:#827397;
+$col-violeta:#4D4C7D;
+$col-violetaoscuro:#363062;
+$col-negro:#000000;
+$col-blanco:#FFFFFF;
+
+// T I P O G R A F Í A //
+$tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+#fondo{
+    background-image: url(background-iniciosesion.webp);
 }
+
+#Tagenda{
+    background-color:$col-violetaoscuro;
+    border: solid 10px $col-violeta;
+    height: 70px;
+    width: 600px;
+    text-align: center;
+    color: $col-rosa;
+    text-shadow: 2px 3px 3px $col-violeta;
+    font-family: $tipograf-titulo;
+    font-size: 270%;
+}
+#h2bienvenido{
+    height: 35px;
+    width: 600px;
+    text-align: center;
+    color: $col-violetaoscuro;
+    text-shadow: 2px 3px 3px $col-lila;
+    font-family: $tipograf-titulo;
+    font-size: 90%;
+}
+
+
+
+
+
+
+
+
+
 
 // ahora quiero crear páginas. cada página va a ser un nuevo módulo (no un componente)
 // va a ser un módulo que puede contener 1 o más componentes.

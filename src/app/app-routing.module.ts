@@ -24,7 +24,16 @@ const routes: Routes = [
     loadChildren: () => import('./public/pages/contact/contact.module').then(m => m.ContactModule)
     //                      importá este módulo,                         y después cargalo.
     // esto es lazy loading. Importa las cosas solo cuando le le pide así evitamos saturar nuestra red.
-  }
+  },
+
+  {
+    path: 'registrase',
+    loadChildren: () => import('./public/pages/registrarse/registrarse.module').then(m => m.RegistrarseModule)
+  },
+  // {
+  //   path: 'contacts',
+  //   loadChildren: ()=> import('./public/pages/contact-details/contact-details.module').then(m => m.ContactDetailsModule)
+  // },
 ];
 
 @NgModule({

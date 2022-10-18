@@ -1,6 +1,47 @@
-<p>AGENDA</p>
+<article id="fondo">
+<html>
+<h1 ID="Tagenda">  ≧◉ᴥ◉≦     AGENDA     ≧◉ᴥ◉≦  </h1> <!-- las etiquetas de heading son usadas por los motores de búsqueda asíque hay que usarlo solo para los títulos-->
+<!-- <hr> es para separar secciones de la app. es una línea -->
 
-<ul> <!-- esto es una lista-->
+
+
+<ul>
+  <li><a class="active" [routerLink]="['home']" >Home</a></li>
+  <li><a [routerLink]="['contact']">Contactos</a></li>
+  <li><a >Nuevo Contacto</a></li>
+  <!-- <li><a >About</a></li> -->
+</ul>
+
+
+<!-- 
+<h2 id="h2bienvenido">Bienvenido/a a su <span>agenda</span> de contactos</h2> -->
+
+<!-- esta etiqueta p es de párrafo-->
+<!-- span es para, dentro de un párrafo, tener seleccionado alguna parte del párrafo para dps en css hacer algo solo con eso-->
+<!-- la etiqueta<br> es para hacer saltos de línea dentro delpárrafo-->
+<!-- podemos usar   <a href="(link)"> ir a este enlace </a> para que nos lleve a otra página web: ej: whatsapp.
+no la usamos dentro de la app xq es una single page application -->
+<!-- para que se abra la pág en otra pestaña, usamos <a target="_blank" href="(link)"> ir a este enlace </a> -->
+<!-- COMO PONER UNA IMAGEN DESCARGADA
+<img src="CARPETA/elNombreDeLaImagen" width="px" (o height)(mantiene la relacion entre el alto y ancho de la imagen
+si ponemos tanto height como width, la ponemos hacer a la imagen un perro salchicha) /> Conviene hacer una carpeta aparte para las imágenes-->
+<!-- PARA CREAR UN 'FORMULARIO' (recopilar información del usuario)
+    <form>
+        <label for="nombre"> nombreDeLoQueElUsuarioTieneQueIngreaar </label>
+        <input type="LoQueSeEsperaQWueIngreseElUsuario" id="nombre" name="nombrepersona" placeholder="Ingrese Nombre" />    (se abre un cuadradito de texto para que el usuario ingrese algo)
+    </form>
+    lo de la PROPIEDAD for e id es para que al apretar accidentalmente el nombre del espacio para inputear, igualkmente sea como que se apreta el cuadradito de input
+    lo de la propiedad name es para que tengamos guardado qué es lo que ingresó el usuario. si es un nombre, apellido o qué.
+    la propiedad PLACEHOLDER es para que en el cuadradito de input aparezca escrito más clarito algo antes que el usuario arranque a escribir
+    la propiedad tipe es para aclarar lo que queremos que ingrese el usuario (texto por defecto, sino mail, contraseña, etc)
+    dato de color: si ponemos password, las letras se ven como puntitos. Hay muchísimos, para seleccionar un puntito, para subir un archivo, etc
+ENTONCES.. FORM AGRUPA LOS VALORES QUE INGRESA EL USUARIO CON LOS INPUT-->
+    <!-- TB DENTRO DE LO DE ARRIBA PONEMOS PONER:
+        <textarea> </textarea> para poner una caja de comentario grande que ingrese el usuario con las propiedades, rows, columnas, y lo demás igual q el input.
+    LUEGO
+    <input type="submit" /> HACE QUE AL APRETAR EL BOTÓN, SE GUARDE TODO LO QUE EL USUARIO INGRESÓ EN EL SERVIDOR
+    para guardarlos, en form tenemos que agregar action="" y method=""-->
+<!-- <ul> esto es una lista -->
     <!-- list item -->
     <!-- nosotros podríamos a un link ponerle un href="" con una dirección para donde ir
     PEEERO nosotros no queremos hacer eso porque si ponemos un href, cuando clickeemos el link,
@@ -10,11 +51,13 @@
     entonces lo que vamos a usar (la manera de linkearnos con agular) que es usando routerlink.
     dentro de routerLink ponemos un array de a donde queremos ir-->
 
-    <li><a [routerLink]="['']">Home</a></li> <!-- estos van a ser links. coo aún no tienen dirección, no tienen funcionalidad de link-->
+    <!-- <li><a [routerLink]="['']">Home</a></li> estos van a ser links. coo aún no tienen dirección, no tienen funcionalidad de link -->
     <!-- home nos llevaría a un path vacío-->
-    <li><a [routerLink]="['./contact']">Contact</a></li>
+    <!-- <li><a [routerLink]="['./contact']">Contact</a></li> -->
     <!-- contact nos llevaría a contact
     y entonces ahora a contact le tenemos que decir a donde ir
     entonces en app-routing.module.ts tenemos que crear un path contact que nos lleve a contact--->
 
-</ul>
+<!-- </ul> -->
+</html>
+</article>
