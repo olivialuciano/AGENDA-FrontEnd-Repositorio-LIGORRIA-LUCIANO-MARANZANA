@@ -30,10 +30,19 @@ const routes: Routes = [
     path: 'registrarse',
     loadChildren: () => import('./public/pages/registrarse/registrarse.module').then(m => m.RegistrarseModule)
   },
-  // {
-  //   path: 'contacts',
-  //   loadChildren: ()=> import('./public/pages/contact-details/contact-details.module').then(m => m.ContactDetailsModule)
-  // },
+
+  {
+    path: 'registrarse',
+    loadChildren: () => import('./public/pages/registrarse/registrarse.module').then(m => m.RegistrarseModule)
+  },
+  {
+    path: 'create-new-contact',
+    loadChildren: ()=> import('./public/pages/create-new-contact/create-new-contact.module').then(m => m.CreateNewContactModule)
+  },
+  {
+    path: 'contact-detail',
+    loadChildren: ()=> import('./public/pages/contact-detail/contact-detail.module').then(m => m.ContactDetailModule)
+  },
 ];
 
 @NgModule({

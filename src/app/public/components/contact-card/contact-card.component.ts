@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Contact, ContactJsonPlaceholder, defaultContact } from 'src/app/core/interfaces/contacts';
+import { Contact, ContactJsonPlaceholder, defaultContact } from 'src/app/core/interfaces/contact';
 
 @Component({
   selector: 'app-contact-card',

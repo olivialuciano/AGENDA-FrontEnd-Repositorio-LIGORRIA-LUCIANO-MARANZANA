@@ -1,0 +1,163 @@
+// C O L O R E S //
+$col-rosa:#E9D5DA;
+$col-lila:#827397;
+$col-violeta:#4D4C7D;
+$col-violetaoscuro:#363062;
+$col-negro:#000000;
+$col-blanco:#FFFFFF;
+
+// T I P O G R A F Í A //
+$tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+
+#fondo2{
+    background-color:$col-lila;
+    border: solid 10px $col-violeta;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+#HnombreApellido{
+    height: 10px;
+    width: 600px;
+    text-align: center;
+    color: $col-violetaoscuro;
+    text-shadow: 2px 3px 3px $col-lila;
+    font-family: $tipograf-titulo;
+}
+
+
+
+
+#tel{
+  height: 5px;
+  width: 15px;
+  text-align: center;
+  color: $col-violetaoscuro;
+  font-family: $tipograf-titulo;
+}
+
+
+#descripcion{
+    height: 5px;
+    width: 15px;
+    text-align: center;
+    color: $col-violetaoscuro;
+    font-family: $tipograf-titulo;
+}
+
+
+#Bvolver {
+    position: relative;
+    background-color:$col-violetaoscuro;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    // padding: 20px;
+    height: 35px;
+    width: 150px;
+    width: 150px;
+    text-align: center;
+    font-family: $tipograf-titulo;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #Bvolver:after {
+    content: "";
+    background:$col-rosa;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.5s
+  }
+  #Bvolver:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  #Beditar {
+    position: relative;
+    background-color:$col-violetaoscuro;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    // padding: 20px;
+    height: 35px;
+    width: 150px;
+    width: 150px;
+    text-align: center;
+    font-family: $tipograf-titulo;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #Beditar:after {
+    content: "";
+    background:$col-rosa;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.5s
+  }
+  #Beditar:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  #Beliminar {
+    position: relative;
+    background-color:$col-violetaoscuro;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    // padding: 20px;
+    height: 35px;
+    width: 150px;
+    width: 150px;
+    text-align: center;
+    font-family: $tipograf-titulo;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #Beliminar:after {
+    content: "";
+    background:$col-rosa;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.5s
+  }
+  #Beliminar:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }

@@ -1,6 +1,6 @@
-import { Contact, defaultContact } from "src/app/core/interfaces/contacts";
+import { Contact, defaultContact } from "src/app/core/interfaces/contact";
 
-export const contactsData:Contact[] = [
+export const contactData:Contact[] = [
     defaultContact,
     defaultContact,
     defaultContact,

@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './public/components/header/header.component';
+import { ContactDetailComponent } from './public/pages/contact-detail/contact-detail.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent //ES EL HEADER COMPONENT
+    HeaderComponent,
+    ContactDetailComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,21 +1,20 @@
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="card">
-    <img src="CEO2.png" alt="Avatar" style="width:100%">
-    <div class="container">
-      <h4 style="color: white; width: 200px; font-size: 20px;"><b>John Doe</b></h4> 
-      <p style="color: rgb(163, 150, 150); margin-top: 0; font-size: 15px;">VD</p>
-      <div style="display: flex; flex-direction: row;">
-      <span class="iconify" data-icon="fluent:call-16-filled" data-inline="false" 
-      style="color: #ffa31a;"></span>
-      <p style="color: white;">123456789</p>
-      </div>
-      <div style="display: flex; flex-direction: row; ">
-          <span class="iconify" data-icon="fluent:mail-28-filled" data-inline="false" 
-          style="color: #ffa31a;"></span>
-          <p style="color: white;">test@test.com</p>
-          </div>
-    </div>
-  </div>
-<!-- 
+  <br>
+  <img id="FprofilePicture" src="defaultProfilePicture.jpg" alt="foto de perfil de Nombre Apellido.">
+  <br>
+  <h1 id="nombre">nombre</h1>
+  <h1 id="apellido">Apellido</h1>
+  <p id="tel">341346786</p>
+  <br>
+  <p><button ID="BverContacto" [routerLink]="['/contact-detail']">VER CONTACTO</button></p>
+</div>
+
+
+
+<!--
   <main id="container">
   <app-contact-card
     *ngFor="let contact of contactsData"

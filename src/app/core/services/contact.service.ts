@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BACKEND_URL } from '../constants/backend';
-import { ContactJsonPlaceholder } from '../interfaces/contacts';
+import { ContactJsonPlaceholder } from '../interfaces/contact';
 import { AuthService } from './auth.service';
 
 @Injectable({
