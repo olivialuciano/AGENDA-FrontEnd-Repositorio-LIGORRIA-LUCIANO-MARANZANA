@@ -19,14 +19,15 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 
 #Tagenda{
     background-color:$col-violetaoscuro;
-    border: solid 10px $col-violeta;
-    height: 70px;
-    width: 600px;
+    // display: flex;
+    // border: solid 50% $col-violeta;
+    justify-content: center;
+    height: 50%;
     text-align: center;
     color: $col-rosa;
     text-shadow: 2px 3px 3px $col-violeta;
     font-family: $tipograf-titulo;
-    font-size: 270%;
+    font-size: 300%;
 }
 // #h2bienvenido{
 //     height: 35px;

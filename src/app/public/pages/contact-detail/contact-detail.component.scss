@@ -12,30 +12,41 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 
 
 
+#FprofilePicture{
+    width: 30%;
+    border-radius: 50%;
+  }
 
 #fondo2{
+    // display: flex;
     background-color:$col-lila;
-    border: solid 10px $col-violeta;
-    height: 300px;
+    border: solid 10% $col-violeta;
+    height: 300%;
     width: 600px;
     text-align: center;
 }
 
-#HnombreApellido{
-    height: 10px;
-    width: 600px;
+#Hnombre{
+    // display: flex;
     text-align: center;
     color: $col-violetaoscuro;
-    text-shadow: 2px 3px 3px $col-lila;
     font-family: $tipograf-titulo;
+    font-size: 200%;
+}
+#Hapellido{
+    // display: flex;
+    text-align: center;
+    color: $col-violetaoscuro;
+    font-family: $tipograf-titulo;
+    font-size: 200%;
 }
 
 
 
 
 #tel{
-  height: 5px;
-  width: 15px;
+//   height: 5px;
+//   width: 15px;
   text-align: center;
   color: $col-violetaoscuro;
   font-family: $tipograf-titulo;
@@ -43,8 +54,8 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 
 
 #descripcion{
-    height: 5px;
-    width: 15px;
+    // height: 5px;
+    // width: 15px;
     text-align: center;
     color: $col-violetaoscuro;
     font-family: $tipograf-titulo;
@@ -55,109 +66,37 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     background-color:$col-violetaoscuro;
     border: none;
-    font-size: 15px;
+    font-size: 150%;
     color: #FFFFFF;
-    // padding: 20px;
-    height: 35px;
-    width: 150px;
-    width: 150px;
+    width: 40%;
     text-align: center;
     font-family: $tipograf-titulo;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
   }
-  #Bvolver:after {
-    content: "";
-    background:$col-rosa;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.5s
-  }
-  #Bvolver:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
+
 
   #Beditar {
     position: relative;
-    background-color:$col-violetaoscuro;
+    background-color:$col-violeta;
     border: none;
-    font-size: 15px;
+    font-size: 110%;
     color: #FFFFFF;
-    // padding: 20px;
-    height: 35px;
-    width: 150px;
-    width: 150px;
+    width: 20%;
     text-align: center;
     font-family: $tipograf-titulo;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
+    float: left;
   }
-  #Beditar:after {
-    content: "";
-    background:$col-rosa;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.5s
-  }
-  #Beditar:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
+
 
   #Beliminar {
     position: relative;
-    background-color:$col-violetaoscuro;
+    background-color:$col-violeta;
     border: none;
-    font-size: 15px;
+    font-size: 110%;
     color: #FFFFFF;
-    // padding: 20px;
-    height: 35px;
-    width: 150px;
-    width: 150px;
+    width: 20%;
     text-align: center;
     font-family: $tipograf-titulo;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
+    float: right;
   }
-  #Beliminar:after {
-    content: "";
-    background:$col-rosa;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.5s
-  }
-  #Beliminar:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
+
+

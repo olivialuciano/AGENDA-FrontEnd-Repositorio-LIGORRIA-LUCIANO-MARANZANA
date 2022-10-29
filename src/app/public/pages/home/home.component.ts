@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { Route } from '@angular/router';
+import { iAuthRequest } from 'src/app/core/interfaces/auth';
+import { AuthService } from 'src/app/core/services/auth.service';
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +12,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  authData:iAuthRequest = {
+    userName : "",
+    password : "",
+  }
+
+  constructor(private auth:AuthService) { }
 
   ngOnInit(): void {
   }
 
+  async login(form:NgForm) {
+
+    console.log(form.value)
+
+    const token = await this.auth.login(form.value)
+
+    if (token) console.log("probando")
+    
+  }
+
 }
+

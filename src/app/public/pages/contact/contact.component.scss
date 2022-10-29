@@ -22,8 +22,7 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #nombre{
-  // height: 5px;
-  // width: 15px;
+  font-size: 250%;
   text-align: center;
   color: $col-violetaoscuro;
   font-family: $tipograf-titulo;
@@ -32,8 +31,7 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 
 
 #apellido{
-  // height: 5px;
-  // width: 15px;
+  font-size: 250%;
   text-align: center;
   color: $col-violetaoscuro;
   font-family: $tipograf-titulo;
@@ -42,8 +40,7 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 
 
 #tel{
-    // height: 5px;
-    // width: 15px;
+    font-size: 150%;
     text-align: center;
     color: $col-violetaoscuro;
     font-family: $tipograf-titulo;
@@ -63,47 +60,29 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
     text-align: center;
     font-family: $tipograf-titulo;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
   }
   
-  #BverContacto:after {
-    content: "";
-    background:$col-rosa;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.5s
-  }
-  
-  #BverContacto:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
 
 
 
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
   text-align: center;
-  color: $col-rosa;
+  background-color: $col-rosa;
 }
 
 #FprofilePicture{
-  width: 30px;
+  width: 50%;
+  border-radius: 50%;
 }
+
+// #FprofilePicture{
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 50%;
+// }
 
 // .title {
 //   color: grey;

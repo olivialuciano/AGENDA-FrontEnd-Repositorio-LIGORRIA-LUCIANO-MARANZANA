@@ -15,6 +15,7 @@
 // }
 
 import { Component, OnInit } from '@angular/core';
+import { iAuthRequest } from 'src/app/core/interfaces/auth';
 import { ContactJsonPlaceholder } from 'src/app/core/interfaces/contact';
 import { AuthService } from 'src/app/core/services/auth.service';
 import { ContactService } from 'src/app/core/services/contact.service';
@@ -27,6 +28,7 @@ import { ContactService } from 'src/app/core/services/contact.service';
 export class ContactComponent implements OnInit {
 
   contactData:ContactJsonPlaceholder[] = [];
+
 
   constructor(private cs:ContactService, private auth:AuthService) { }
 

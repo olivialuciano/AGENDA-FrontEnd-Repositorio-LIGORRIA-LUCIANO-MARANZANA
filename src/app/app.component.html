@@ -11,14 +11,13 @@ ahí se crean los 4 archivos que necesita el componente (html, css, ts y testing
 TODOS LOS COMPONENTES TIENEN QUE ESTAR CARGADOS O DECLARADOS EN UN MÓDULO PARA PODER FUNCIONAR
 
 podemos integrar el componente a esta página usando la etiqueta del selector </app-header> -->
-
+<div id="fondoTotal">
 <app-header> </app-header>
-
 <!-- A TODO ESTO... en app.component.html tengo el header que cargué antes y luego, en la etiqueta <router-outlet>,
 se va a cargar todo lo que rependa del router.
 o sea que cuando yo me vaya moviendo por el router, el app-header no va a cambiar nunca, sino que 
 va a cambiar lo que pase dentro de router-outlet. -->
 
 <router-outlet></router-outlet>
-
+</div>
 <!-- entonces vamos a header y vamos a hacer que funcionen nuestros links. (components/header (header.component.html))-->

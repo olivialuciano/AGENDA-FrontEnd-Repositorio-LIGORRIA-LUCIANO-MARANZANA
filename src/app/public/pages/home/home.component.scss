@@ -15,135 +15,89 @@ $tipograf-titulo: Verdana, Geneva, Tahoma, sans-serif;
 //     background-image: url("background-iniciosesionhome.webp");
 // }
 
-#fondo2{
-    background-color:$col-lila;
-    border: solid 10px $col-violeta;
-    height: 300px;
-    width: 600px;
-    text-align: center;
-}
+
+
+// #fondo2{
+//     background-color:$col-lila;
+//     border: solid 10px $col-violeta;
+//     height: 300px;
+//     width: 600px;
+//     text-align: center;
+// }
+
+
 
 #Hiniciarsesion{
-    height: 10px;
-    width: 600px;
+    background-color:$col-lila;
+    // display: flex;
+    border: solid 10px $col-violeta;
+    justify-content: center;
+    height: 13%;
     text-align: center;
     color: $col-violetaoscuro;
     text-shadow: 2px 3px 3px $col-lila;
     font-family: $tipograf-titulo;
+    font-size: 200%;
 }
 
+
+
 #correo{
-    height: 5px;
-    width: 15px;
+    // display: flex;
+    height: 5%;
     text-align: center;
     color: $col-violetaoscuro;
     font-family: $tipograf-titulo;
 }
 #IPcorreo{
-    height: 20px;
-    width: 340px;
+    // display: flex;
+    height: 20%;
     color: $col-lila;
     font-family: $tipograf-titulo;
 }
 #contrasena{
-    height: 5px;
-    width: 15px;
+    // display: flex;
+    height: 5%;
     text-align: center;
     color: $col-violetaoscuro;
     font-family: $tipograf-titulo;
 }
 #IPcontrasena{
-    height: 20px;
-    width: 340px;
+    // display: flex;
+    height: 20%;
+    width: 340%;
     color: $col-lila;
     font-family: $tipograf-titulo;
 }
 
-// #Bingresar{
-//     height: 35px;
-//     width: 150px;
-//     color: $col-lila;
-//     font-family: $tipograf-titulo;
-// }
 
-// #Bregistrarse{
-//     height: 20px;
-//     width: 300px;
-//     color: $col-lila;
-//     font-family: $tipograf-titulo;
-// }
 
 #Bingresar {
-    position: relative;
-    background-color:$col-violetaoscuro;
-    border: none;
-    font-size: 15px;
-    color: #FFFFFF;
-    padding: 20px;
-    width: 150px;
-    text-align: center;
-    font-family: $tipograf-titulo;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  #Bingresar:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-  }
-  
-  #Bingresar:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
-
-  #Bregistrarse {
-    position: relative;
-    background-color:$col-violetaoscuro;
-    border: none;
-    font-size: 15px;
-    padding: 20px;
-    height: 20px;
-    width: 300px;
+    // display: flex;
+    background-color:$col-lila;
+    font-size: 200%;
+    height: 40%;
     color: white;
     text-align: center;
     font-family: $tipograf-titulo;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
+
   }
   
-  #Bregistrarse:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
+
+  #Bregistrarse {
+    // display: flex;
+    background-color:$col-lila;
+    font-size: 70%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    font-family: $tipograf-titulo;
   }
   
-  #Bregistrarse:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
+
+  #fondo{
+    // display: flex;
+    background-color: $col-rosa;
+    justify-content: center;
+    text-align: center;
   }
